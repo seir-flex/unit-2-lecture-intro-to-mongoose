@@ -1,4 +1,5 @@
-const mongoose = require('mongoose'); // require mongoose
+// const mongoose = require('mongoose'); // require mongoose
+const { mongoose } = require('../db/connection');
 const Schema = mongoose.Schema; // create a shorthand for the mongoose Schema constructor
 
 // create a new Schema
