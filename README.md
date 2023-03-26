@@ -61,14 +61,14 @@ const articleSchema = new Schema(
 
 ## Basic Set Up
 
-- `mkdir tweeter`
-- `cd tweeter`
-- `touch server.js`
-- `npm init -y` or go through the prompts
-- `npm i express mongoose`
-- `mkdir models`
-- `touch models/tweet.js`
-- `code .`
+In order to get coding `student_examples` should already be configured with the following:
+
+| File                 | Purpose                                       |
+| -------------------- | --------------------------------------------- |
+| controllers/tweets.js | business logic to connect to DB for full CRUD |
+| db/connection.js     | sets up a connection to the db                |
+| db/seed.js           | some seed data to get us started              |
+| models/tweet.js      | schema structure for our data                 |
 
 
 ## Set Up A Basic Express Server
