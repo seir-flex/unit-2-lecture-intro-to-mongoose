@@ -2,8 +2,6 @@
 const express = require('express');
 const app = express();
 const PORT = 3000;
-const mongoose = require('./db/connection');
-const tweetSeed = require('./models/tweetSeed.js');
 
 // Middleware
 // Body parser middleware: it creates req.body
