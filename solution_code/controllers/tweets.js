@@ -7,9 +7,12 @@ const Tweet = require('../models/tweet')
 
 // Create
 router.post('/', async (req, res) => {
-	// what is the key we are looking for that has the data?
-	console.log('req.body', req.body)
-	res.send(req.body);
+	// req.body has the data
+	// create a new document in the collection
+	// wait for this line of code to finish
+	const tweet = await Tweet.create(req.body)
+	// then do this thing
+	res.send(tweet)
 });
 
 // Index
