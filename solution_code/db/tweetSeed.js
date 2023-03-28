@@ -14,4 +14,9 @@ module.exports = [
 		body: 'I shall deny friendship to anyone who does not exclusively shop at Whole Foods',
 		author: 'Karolin',
 	},
+	{
+		title: 'Whole Reality',
+		body: 'I shall deny friendship to anyone who does not exclusively shop at Whole Foods',
+		author: 'Karolin',
+	},
 ];
